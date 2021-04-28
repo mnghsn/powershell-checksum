@@ -10,7 +10,7 @@ This script set uses `Get-FileHash` cmdlet to compute the hash value for the fil
 
 - PowerShell 5.0 or PowerShell Core
 
-## Installtion
+## Installation
 
 The scripts are standalone and can run regardless of where the file is located on your machine.
 
