@@ -35,10 +35,16 @@ Test-Checksum -Path SHA256SUMS.txt
 Get-ChildItem -Path *SUMS.txt | Test-Checksum
 ```
 
+```powershell
+# Get detailed information about the scripts.
+Get-Help -Detailed Get-Checksum.ps1
+Get-Help -Detailed Test-Checksum.ps1
+```
+
 ## Disclaimer
 
 The code within this repository comes with no guarantee. Use at your own risk.
 
 ## License
 
-Licensed under the MIT License.
+Licensed under the [MIT License](LICENSE.md).
